@@ -1,4 +1,5 @@
 .DS_Store
 /.svelte-kit
-/docs
+/docs/_app
+/docs/vite-manifest.json
 node_modules
