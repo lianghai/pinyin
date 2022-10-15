@@ -9,9 +9,6 @@ const config = {
       pages: "docs",
     }),
     trailingSlash: "always",
-    paths: {
-      base: "/pinyin",
-    },
   },
 };
 
