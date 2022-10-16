@@ -1,5 +1,5 @@
 <script>
-  const wikipedia = "https://en.wikipedia.org/wiki";
+  import { locales } from "$lib/data";
 </script>
 
 <h1>Locales</h1>
@@ -7,7 +7,9 @@
 <p>Currently available:</p>
 
 <ul>
-  <li>
-    <a href="{wikipedia}/Dutch_language">Dutch (Nederlands)</a>
-  </li>
+  {#each Object.values(locales) as locale}
+    <li>
+      <a href={locale.referenceURL}>{locale.name}</a>
+    </li>
+  {/each}
 </ul>
