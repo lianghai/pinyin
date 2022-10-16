@@ -1,8 +1,8 @@
+/docs
 package-lock.json
 
 # .gitignore:
 
 .DS_Store
 /.svelte-kit
-/docs
 node_modules

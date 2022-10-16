@@ -1,0 +1,1 @@
+const t=function({params:e}){return{syllables:e.query.split("-").filter(Boolean).map(o=>o.toLowerCase())}},l=Object.freeze(Object.defineProperty({__proto__:null,load:t},Symbol.toStringTag,{value:"Module"}));export{l as _,t as l};
