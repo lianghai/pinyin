@@ -14,7 +14,7 @@ The site auto-reloads when you save changes.
 
 ## Building
 
-To update the static build at `docs/`:
+To update the static build at [`docs/`](./docs/):
 
 ```console
 npm run build

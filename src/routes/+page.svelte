@@ -10,7 +10,7 @@
 
 <h1>Pinyin <em>How?</em></h1>
 
-<p>Pronunciation respelling of Pinyin syllables in <em>your language</em>.</p>
+<p>Pronunciation respelling of Pinyin syllables in <a href="locales">your language</a>.</p>
 
 <p>For example:</p>
 
