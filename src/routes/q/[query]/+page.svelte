@@ -7,12 +7,13 @@
 
 <h1>Pinyin syllables “{data.syllables.join(" ")}”</h1>
 
-<p>Respelled in <i>Nederlands</i> (Dutch):</p>
+<p>… respelled in <i>Dutch (Nederlands)</i>:</p>
 
 <ul>
   {#each data.syllables as syllable}
     <li>
-      {syllable}:
+      <b>{syllable}</b>
+      →
       <i>{syllableToRespelling[syllable] ?? "<unknown syllable>"}</i>
     </li>
   {/each}

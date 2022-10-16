@@ -1,6 +1,6 @@
-# Pinyin How: pronunciation respelling for your language
+# Pinyin _How?_
 
-This site is built with [SvelteKit](https://kit.svelte.dev).
+> Built with [SvelteKit](https://kit.svelte.dev).
 
 ## Developing
 
