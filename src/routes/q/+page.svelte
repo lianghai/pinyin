@@ -1,1 +1,1 @@
-<h1>(Q for query)</h1>
+<h1>Psst, Q for query.</h1>
