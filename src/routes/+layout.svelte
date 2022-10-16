@@ -2,10 +2,13 @@
   import { page } from "$app/stores";
 </script>
 
-{#if $page.routeId}
-  <header>
+<header>
+  {#if $page.routeId}
     <a href="/">Home</a>
-  </header>
-{/if}
+  {:else}
+    This is an
+    <a href="https://github.com/lianghai/pinyin">open source project</a>
+  {/if}
+</header>
 
 <slot />
