@@ -6,9 +6,9 @@ const config = {
   preprocess: preprocess(),
   kit: {
     adapter: adapter({
-      pages: "docs",
+      pages: "docs", // GitHub Pages
+      fallback: "404.html", // for the single-page app mode (GitHub Pages does’t support the 200.html fallback)
     }),
-    trailingSlash: "always",
   },
 };
 
