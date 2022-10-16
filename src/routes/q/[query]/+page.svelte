@@ -4,12 +4,15 @@
 
   export let data: PageData;
 
-  const locale = locales["nl"];
+  const localeID = "nl";
+  const locale = locales[localeID];
 </script>
 
 <h1>Pinyin syllables “{data.syllables.join(" ")}”</h1>
 
-<p>… respelled in <i>{locale.name}</i>:</p>
+<p>
+  … respelled in <a href="../locales#{localeID}"><i>{locale.name}</i></a>:
+</p>
 
 <ul>
   {#each data.syllables as syllable}
