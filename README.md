@@ -2,7 +2,7 @@
 
 This is the source repo of <a href="https://pinyin.how">pinyin.how</a>.
 
-Developed with [SvelteKit](https://kit.svelte.dev), deployed to <a href="https://vercel.com/changelog/sveltekit-projects-can-now-be-deployed-with-zero-configuration">Vercel</a>.
+Developed with [SvelteKit](https://kit.svelte.dev). Deployed to <a href="https://vercel.com/changelog/sveltekit-projects-can-now-be-deployed-with-zero-configuration">Vercel</a> from the [main](https://github.com/lianghai/pinyin/tree/main) branch.
 
 ## Developing
 
