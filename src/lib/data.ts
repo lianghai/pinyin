@@ -16,13 +16,13 @@ export const locales: Record<
     syllableToRespelling: {
       zhang: "dzjang",
       yi: "ie",
-      lun: "loen",
-      jia: "dzja",
+      lun: "loeën", // how to avoid the pronunciation omission of -n?
+      jia: "dzjia", // dzja would not have enough /i/
       zhao: "dzjau",
       hui: "hoeé",
       tian: "tièn",
-      xiao: "sjau",
-      wen: "wen",
+      xiao: "sjiau",
+      wen: "wèn", // emphasize e variants for clarity
       zhu: "dzjoe",
       ke: "ke",
       hao: "hau",
@@ -30,7 +30,7 @@ export const locales: Record<
       hai: "haai",
       liu: "ljo",
       dong: "dong",
-      yuan: "juèn",
+      yuan: "uèn", // no need for the pseudo onset
     },
   },
 };
