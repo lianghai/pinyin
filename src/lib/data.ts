@@ -2,7 +2,7 @@ const wikipedia = "https://en.wikipedia.org/wiki";
 
 type LocaleID = string;
 
-export const locales: Record<
+export const localeToData: Record<
   LocaleID,
   {
     name: string;
