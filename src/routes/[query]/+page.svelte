@@ -2,7 +2,7 @@
   let { data } = $props();
 </script>
 
-<h1>Pinyin syllables “{data.syllables.join(" ")}”</h1>
+<h1>Pinyin syllables: {data.syllables.join(" ")}</h1>
 
 <p>
   … respelled in <a href="/about#{data.locale}"><i>{data.data.name}</i></a>:

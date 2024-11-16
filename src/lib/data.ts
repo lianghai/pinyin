@@ -10,7 +10,7 @@ export const localeToData: Record<
     syllableToRespelling: Record<string, string>;
   }
 > = {
-  nl: {
+  "nl-NL": {
     name: "Dutch (Nederlands)",
     referenceURL: wikipedia + "/Dutch_language",
     syllableToRespelling: {

@@ -4,13 +4,17 @@
   let { children } = $props();
 </script>
 
-<header>
+<svelte:head>
+  <title>Pinyin How?</title>
+</svelte:head>
+
+<p>
   {#if $page.route.id != "/"}
     <a href="/">Home</a>
   {:else}
     See also the <a href="https://github.com/lianghai/pinyin">source repo</a>
   {/if}
-</header>
+</p>
 
 {@render children()}
 
@@ -36,12 +40,15 @@
       margin: 0 auto;
     }
 
-    header {
-      padding-top: 0.5rem;
+    h1 {
+      margin: 1rem 0;
     }
 
-    h1 {
-      margin-top: 0;
+    aside {
+      overflow-y: hidden;
+      margin: 1em 0;
+      background-color: whitesmoke;
+      padding: 0 1em;
     }
 
     a {

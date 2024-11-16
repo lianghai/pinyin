@@ -1,7 +1,7 @@
 import { error } from "@sveltejs/kit";
 import { localeToData } from "$lib/data";
 
-const locale = "nl";
+const locale = "nl-NL";
 const data = localeToData[locale];
 
 export function load({ params: { query } }) {
