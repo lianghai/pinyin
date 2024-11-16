@@ -1,9 +1,6 @@
 <h1>Pinyin <em>How?</em></h1>
 
-<p>
-  Pronunciation respelling of Pinyin syllables in
-  <a href="about">your language</a>.
-</p>
+<p>Pronunciation respelling of Pinyin syllables</p>
 
 <aside>
   <p>I’m just so sick of the culture that it’s considered polite to apologize for “butchering” a foreign name. And on the other hand, I’m frustrated by how people just don’t know how to teach the pronunciation of their name.</p>

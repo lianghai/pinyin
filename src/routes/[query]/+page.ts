@@ -1,21 +1,17 @@
 import { error } from "@sveltejs/kit";
-import { localeToData } from "$lib/data";
-
-const locale = "nl-NL";
-const data = localeToData[locale];
+import { syllableToRespelling } from "$lib/data";
 
 export function load({ params: { query } }) {
   const syllables: string[] = [];
   for (const candidate of query.toLowerCase().split("-")) {
-    if (candidate in data.syllableToRespelling) {
+    if (candidate in syllableToRespelling) {
       syllables.push(candidate);
     } else {
       error(404, "Not Found");
     }
   }
   return {
-    locale,
-    data,
+    syllableToRespelling,
     syllables,
   };
 }
